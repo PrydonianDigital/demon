@@ -30,16 +30,16 @@
 
 	add_filter( 'woocommerce_product_tabs', 'woo_remove_product_tabs', 98 );
 	function woo_remove_product_tabs( $tabs ) {
-	    unset( $tabs['additional_information'] );  	// Remove the additional information tab
-	    return $tabs;
+		unset( $tabs['additional_information'] );  	// Remove the additional information tab
+		return $tabs;
 	}
 
 	function custom_active_item_classes($classes = array(), $menu_item = false) {
-	    global $post;
-	    $id = ( isset( $post->ID ) ? get_the_ID() : NULL );
-	    if (isset( $id )){
-		    $classes[] = ($menu_item->url == get_post_type_archive_link($post->post_type)) ? 'current-menu-item active' : '';
-	    }
-	    return $classes;
+		global $post;
+		$id = ( isset( $post->ID ) ? get_the_ID() : NULL );
+		if (isset( $id )){
+			$classes[] = ($menu_item->url == get_post_type_archive_link($post->post_type)) ? 'current-menu-item active' : '';
+		}
+		return $classes;
 	}
 	add_filter( 'nav_menu_css_class', 'custom_active_item_classes', 10, 2 );
