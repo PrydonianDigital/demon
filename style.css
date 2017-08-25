@@ -61,7 +61,7 @@ button:active,
 .added_to_cart:active {
 	box-shadow: inset 0 2px 5rem rgba(0, 0, 0, .1), inset 0 2px 0 rgba(0, 0, 0, .1) !important;
 }
-.single_add_to_cart_button, .checkout-button, input#place_order, .add_to_cart_button, .button.alt, .actions .button, .button.wc-backward {
+.single_add_to_cart_button, .checkout-button, input#place_order, .add_to_cart_button, .button.alt, .actions .button, .button.wc-backward, .button.again {
 	background: #2ECC40 !important;
 	color: #ffffff !important;
 }
