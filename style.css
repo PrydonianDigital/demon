@@ -1,0 +1,230 @@
+/*
+Theme Name: Demon
+Theme URI: https://www.demonplayingcards.co.uk
+Description: Storefront Child Theme for Demon Playing Cards
+Version: 1.0
+Author: Mark Duwe
+Author URI: http://prydonian.digital
+Template: storefront
+Tags:
+License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License
+License URI: http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US
+Text Domain:
+*/
+body {
+	font-family: "Oswald", "Source Sans Pro", HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+}
+.home #main, .page-template-template-homepage:not(.has-post-thumbnail) .site-main {
+	padding-top: 0 !important;
+}
+.woocommerce-active .site-branding {
+	text-align: center;
+}
+.site-header .site-branding img, .custom-logo {
+	display: block;
+	margin: 0 auto;
+	float: none;
+}
+.site-header .custom-logo-link, .site-header .site-branding, .site-header .site-logo-anchor, .site-header .site-logo-link {
+	float: none;
+}
+.secondary-navigation .menu {
+	float: none;
+}
+.storefront-product-section {
+	padding-top: 1.618em;
+	margin-top: 1.618em;
+	border-top: 1px solid #f0f0f0;
+}
+.page-template-template-homepage .type-page.hentry {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+button,
+[type="submit"],
+.button,
+.added_to_cart {
+	border-radius: 0.25rem !important;
+	box-shadow: inset 0 2px 0 rgba(255, 255, 255, .1), inset 0 -2px 0 rgba(0, 0, 0, .1) !important;
+	transition: box-shadow, .25s ease-in-out;
+}
+button:hover,
+[type="submit"]:hover,
+.button:hover,
+.added_to_cart:hover {
+	box-shadow: inset 0 5rem 5rem rgba(0, 0, 0, .25), inset 0 -1px 0 rgba(0, 0, 0, .25) !important;
+}
+
+button:active,
+[type="submit"]:active,
+.button:active,
+.added_to_cart:active {
+	box-shadow: inset 0 2px 5rem rgba(0, 0, 0, .1), inset 0 2px 0 rgba(0, 0, 0, .1) !important;
+}
+.single_add_to_cart_button, .checkout-button, input#place_order, .add_to_cart_button, .button.alt, .actions .button, .button.wc-backward {
+	background: #2ECC40 !important;
+	color: #ffffff !important;
+}
+.button.alt {
+	background: #111111 !important;
+}
+input[type="color"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+select,
+textarea,
+.select2-selection {
+	background-color: #ffffff !important;
+	border: 1px solid #DDDDDD;
+	border-radius: 0.25rem;
+	width: 100%;
+	white-space: nowrap;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	margin: 0 0 .25rem 0;
+	padding: 0.6180469716em !important;
+}
+input:focus,
+input[type="color"]:focus,
+input[type="date"]:focus,
+input[type="datetime-local"]:focus,
+input[type="email"]:focus,
+input[type="month"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="text"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+input[type="week"]:focus,
+select,
+textarea {
+	background-color: #efefef !important;
+}
+select,
+.select2-selection {
+	position: relative;
+	background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='41px' height='26px' viewBox='0 0 41 26' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3C/defs%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cpolygon id='Path-3' fill='%23000000' points='0 5.38215461 19.9830489 25.3652035 40.1398855 5.20836689 34.9315186 0 19.8691842 15.0623344 4.83971338 0.0328636246'%3E%3C/polygon%3E%3C/g%3E%3C/svg%3E%0A");
+	background-position: right .5rem center;
+	background-repeat: no-repeat;
+	background-size: .75rem;
+}
+.select2-selection__arrow {
+	display: none;
+}
+.select2-selection {
+	height: auto !important;
+}
+.input-group .form-control {
+	height: auto !important;
+}
+.widget_product_search form:before, .widget_search form:before {
+	top: 0.85em !important;
+	left: auto !important;
+	right: 1.15em !important;
+}
+.form-row.woocommerce-invalid input.input-text {
+	box-shadow: none;
+	border-color: #FF4136;
+}
+.form-row.woocommerce-validated input.input-text {
+	box-shadow: none;
+	border-color: #2ECC40;
+}
+table th {
+	background-color: #AAAAAA !important;
+	color: #ffffff !important;
+}
+.cart-subtotal td, .order-total td {
+	background-color: #fbfbfb !important;
+}
+table td, table.cart td.product-remove {
+	border-bottom: 1px solid #DDDDDD;
+}
+table.cart td.actions {
+	padding: 1.618em;
+	border: none;
+}
+.products .product-category mark {
+	display: none;
+}
+.woocommerce-breadcrumb {
+	margin-bottom: 1.5rem;
+}
+img {
+	border-radius: 10px;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.storefront-full-width-content .woocommerce-products-header, .storefront-full-width-content.woocommerce-account .entry-header, .storefront-full-width-content.woocommerce-cart .entry-header, .storefront-full-width-content.woocommerce-checkout .entry-header {
+	padding-bottom: 1.5rem;
+}
+.woocommerce-mini-cart__empty-message {
+	padding: 1em;
+	margin: 0;
+}
+.wc-forward::after, .woocommerce-Button--next::after {
+	content: '\f061';
+}
+.sprh-hero .overlay {
+	box-shadow: inset 0 -2px 10px rgba(17,17,17,0.75), inset 0 2px 10px rgba(17,17,17,0.75);
+}
+.sprh-hero-content-wrapper {
+	text-shadow: 1px 1px 2px rgba(17,17,17,0.75);
+}
+.sprh-hero-content-wrapper .button {
+	text-shadow: none;
+}
+.sprh-hero-content-wrapper .added_to_cart {
+	float: right;
+}
+.smm-mega-menu, .site-header-cart .widget_shopping_cart {
+	box-shadow: 0 2px 2px rgba(17,17,17,0.75);
+}
+.main-navigation ul.menu > li.smm-active a {
+	/*color: #506f8f;*/
+}
+.smm-row span.woocommerce-Price-amount {
+	display: block;
+}
+.star-rating span:before, .star-rating:before {
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.25);
+}
+.storefront-handheld-footer-bar ul li.cart > a::before, .site-header-cart .cart-contents::after {
+	content: '\f07a';
+}
+.storefront-handheld-footer-bar ul li.cart .count {
+	background-color: #2ECC40;
+	box-shadow: 1px 1px 2px rgba(17,17,17,0.5);
+}
+@media screen and (max-width: 769px) {
+	table td, table.cart td.product-remove {
+		border-bottom: none;
+	}
+	.site-branding {
+		margin-right: 0 !important;
+	}
+}
