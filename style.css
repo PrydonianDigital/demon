@@ -68,6 +68,10 @@ button:active,
 .button.alt {
 	background: #111111 !important;
 }
+.checkout-button.button.alt {
+	background: #2ECC40 !important;
+	color: #ffffff !important;
+}
 input[type="color"],
 input[type="date"],
 input[type="datetime-local"],
