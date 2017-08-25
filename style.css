@@ -227,6 +227,31 @@ img {
 	background-color: #2ECC40;
 	box-shadow: 1px 1px 2px rgba(17,17,17,0.5);
 }
+.woocommerce-thankyou-order-details {
+	max-width: 600px;
+	margin: 3.706325903em auto !important;
+	font-family: "Lucida Console", "DejaVu Sans Mono", Monaco, "Courier New", Courier, monospace;;
+	color: #111 !important;
+}
+.woocommerce-thankyou-order-details li.logo img {
+	text-align: center;
+	margin: 0 auto !important;
+}
+.woocommerce-thankyou-order-details li, .woocommerce-thankyou-order-details li strong {
+	font-size: 1rem !important;
+}
+.woocommerce-thankyou-order-details li strong {
+	font-weight: 500 !important;
+	display: inline !important;
+}
+ul.order_details li {
+	border: none;
+	padding: 1em;
+}
+p.woocommerce-thankyou-order-received {
+	text-align: center;
+}
+
 @media screen and (max-width: 769px) {
 	table td, table.cart td.product-remove {
 		border-bottom: none;
