@@ -94,6 +94,9 @@ textarea,
 	margin: 0 0 .25rem 0;
 	padding: 0.6180469716em !important;
 }
+.woocommerce-message .button {
+	padding: 0.6180469716em !important;
+}
 input:focus,
 input[type="color"]:focus,
 input[type="date"]:focus,
